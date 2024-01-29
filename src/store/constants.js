@@ -1,0 +1,15 @@
+export const SET_USERS = "SET_USERS";
+export const SET_USER_DETAILS = "SET_USER_DETAILS";
+export const SET_FILTERED_USERS = "SET_FILTERED_USERS";
+export const FILTER_REGION = "FILTER_REGION";
+export const FILTER_FULLNAME = "FILTER_FULLNAME";
+export const SET_SEARCH = "SET_SEARCH";
+export const DELETE_USER = "DELETE_USER";
+export const NEWUSER_FULLNAME = "NEWUSER_FULLNAME";
+export const NEWUSER_PHONE = "NEWUSER_PHONE";
+export const NEWUSER_REGION = "NEWUSER_REGION";
+export const NEWUSER_STATUS = "NEWUSER_STATUS";
+export const IS_EDIT = "IS_EDIT";
+export const REGEX = /^[а-яА-Я\s]*$/;
+export const REPLACE_CYRILLIC = /[^а-яА-Я\s]/g;
+export const REPLACE_PHONE = /[^0-9]/g;
